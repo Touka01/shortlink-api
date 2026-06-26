@@ -2,10 +2,10 @@
   "name": "shortlink-api",
   "version": "1.0.0",
   "description": "A small, production-minded URL shortener API with click analytics, custom aliases, expiry, and rate limiting.",
-  "main": "src/server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "node --watch src/server.js",
+    "start": "node server.js",
+    "dev": "node --watch server.js",
     "test": "node --test"
   },
   "keywords": ["url-shortener", "express", "api", "sqlite", "rest"],
